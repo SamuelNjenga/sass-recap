@@ -17,6 +17,10 @@ header button:hover {
   background: red;
 }
 
+header button::before {
+  content: "*HEY";
+}
+
 .contact button {
   background: #0c0a80;
 }

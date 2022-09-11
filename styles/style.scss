@@ -11,6 +11,9 @@ header {
     &:hover {
       background: red;
     }
+    &::before {
+      content: "*HEY";
+    }
   }
 }
 
