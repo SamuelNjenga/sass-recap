@@ -4,3 +4,8 @@
 .contact {
   @include flexCenter(row, blue);
 }
+
+.service {
+  @extend header;
+  width: 100% - 20%;
+}

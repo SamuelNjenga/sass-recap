@@ -1,4 +1,4 @@
-header {
+header, .service {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,15 +18,15 @@ header {
   color: #3a2a2a;
 }
 
-header button {
+header button, .service button {
   background: #0c0a80;
 }
 
-header button:hover {
+header button:hover, .service button:hover {
   background: red;
 }
 
-header button::before {
+header button::before, .service button::before {
   content: "*HEY";
 }
 
@@ -46,5 +46,9 @@ header button::before {
       -ms-flex-direction: row;
           flex-direction: row;
   background: blue;
+}
+
+.service {
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
