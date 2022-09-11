@@ -1,0 +1,15 @@
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: $textColor;
+  button {
+    background: $primaryBtn;
+    &:hover {
+      background: red;
+    }
+    &::before {
+      content: "*HEY";
+    }
+  }
+}
