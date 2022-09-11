@@ -2,5 +2,5 @@
 @import "./header";
 
 .contact {
-  @include flexCenter();
+  @include flexCenter(row);
 }
