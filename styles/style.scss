@@ -4,6 +4,17 @@
 
 @import "base";
 
+// @use "sass:math";
+
+// article[role="main"] {
+//   width: math.div(600px, 960px) * 100%;
+// }
+
+// aside[role="complementary"] {
+//   width: math.div(300px, 960px) * 100%;
+//   margin-left: auto;
+// }
+
 @mixin theme($theme: DarkGray) {
   background: $theme;
   box-shadow: 0 0 1px rgba($theme, 0.25);
