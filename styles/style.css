@@ -46,6 +46,32 @@ nav a {
   text-decoration: none;
 }
 
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #f10909;
+}
+
+.info {
+  background: DarkGray;
+  -webkit-box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+          box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+}
+
+.alert {
+  background: DarkRed;
+  -webkit-box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+          box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+  color: #fff;
+}
+
+.success {
+  background: DarkGreen;
+  -webkit-box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+          box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+}
+
 .contact {
   height: 100vh;
   display: -webkit-box;
@@ -66,5 +92,10 @@ nav a {
 
 .service {
   width: 80%;
+}
+
+.inverse {
+  background-color: #f10909;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
