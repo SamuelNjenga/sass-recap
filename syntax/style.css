@@ -1,0 +1,20 @@
+.info {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  height: 19px;
+  border: none;
+  vertical-align: middle;
+}
+
+.info:hover {
+  cursor: pointer;
+}
+
+.info:disabled {
+  color: purple;
+  cursor: default;
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */

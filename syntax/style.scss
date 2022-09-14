@@ -1,0 +1,6 @@
+@import "./variables";
+@import "./buttonBase";
+
+.info {
+  @include button-base;
+}
