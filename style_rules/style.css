@@ -1,0 +1,78 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.alert ul,
+.alert p,
+.warning ul,
+.warning p {
+  margin-right: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  color: lightcoral;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: lightcoral;
+}
+
+.enlarge {
+  font-size: 14px;
+  color: green;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.enlarge:hover {
+  font-size: 36px;
+  color: red;
+}
+
+.info-page {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+div > p {
+  text-align: center;
+}
+
+h2 + p {
+  border-top: 1px solid gray;
+}
+
+p ~ span {
+  opacity: 0.8;
+}
+
+.btn {
+  border: 1px solid black;
+}
+
+.button {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+}
+/*# sourceMappingURL=style.css.map */

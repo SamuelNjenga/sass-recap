@@ -1,0 +1,40 @@
+.alert,
+.warning {
+  ul,
+  p {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    color: lightcoral;
+  }
+}
+
+.circle {
+  $size: 100px;
+  width: $size;
+  height: $size;
+  border-radius: $size * 0.5;
+  background-color: lightcoral;
+}
+
+.enlarge {
+  font-size: 14px;
+  color: green;
+  transition: {
+    property: font-size;
+    duration: 4s;
+    delay: 2s;
+  }
+
+  &:hover {
+    font-size: 36px;
+    color: red;
+  }
+}
+
+.info-page {
+  margin: auto {
+    bottom: 10px;
+    top: 50px;
+  }
+}
