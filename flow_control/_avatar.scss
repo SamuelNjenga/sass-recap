@@ -1,0 +1,17 @@
+@mixin avatar($size, $circle: false) {
+  width: $size;
+  height: $size;
+  background-color: rgb(176, 209, 57);
+
+  @if $circle {
+    border-radius: $size / 2;
+  }
+}
+
+.square-av {
+  @include avatar(100px, $circle: false);
+}
+
+.circle-av {
+  @include avatar(100px, $circle: true);
+}

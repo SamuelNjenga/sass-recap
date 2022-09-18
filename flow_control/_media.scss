@@ -1,0 +1,7 @@
+$layout-breakpoint-small: 720px;
+
+@media (max-width: $layout-breakpoint-small) {
+  .hide-extra-small {
+    color: green;
+  }
+}
