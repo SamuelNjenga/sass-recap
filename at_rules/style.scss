@@ -1,0 +1,54 @@
+@use "code";
+@use "lists";
+@use "corners";
+@use "corners" as c;
+@use "private_member";
+@use "bootstrap";
+@use "bootstrap_two";
+@use "bootstrap_three";
+@import "error";
+@import "warn";
+
+// .sidebar {
+//   @include reflexive-position(top, 12px);
+//   //       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//   // Error: Property top must be either left or right.
+// }
+
+@mixin inset-divider-offset($offset, $padding) {
+  $divider-offset: (2 * $padding) + $offset;
+  @debug "divider offset: #{$divider-offset}";
+
+  margin-left: $divider-offset;
+  width: calc(100% - #{$divider-offset});
+}
+
+.tilt {
+  // Oops, we typo'd "webkit" as "wekbit"!
+  @include prefix(transform, rotate(15deg), wekbit ms);
+}
+
+// .button {
+//   @include corners.rounded;
+//   padding: 5px + corners.$radius;
+// }
+
+// .button {
+//   @include c.rounded;
+//   padding: 5px + c.$radius;
+// }
+
+// .button {
+//   @include corners.rounded;
+
+// This is an error! $-radius isn't visible outside of `_corners.scss`.
+//   padding: 5px + corners.$-radius;
+// }
+
+// li {
+//   @include bootstrap.list-reset;
+// }
+
+// li {
+//   @include bootstrap.list-reset;
+// }
